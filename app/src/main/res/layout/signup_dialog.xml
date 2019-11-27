@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ACCOUNT TYPE"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:background="@android:color/background_dark"
+        android:textColor="@android:color/white"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="USER"
+            android:id="@+id/user"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="ARTIST"
+            android:id="@+id/artist"/>
+
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" © 2019 IMYAS dev group"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:background="@android:color/background_dark"
+        android:textColor="@android:color/white"
+        />
+
+
+</LinearLayout>
